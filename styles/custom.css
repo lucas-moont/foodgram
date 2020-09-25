@@ -17,7 +17,7 @@ header {
   font-family: "Lucida Sans";
   font-size: 12px;
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 header .container{
@@ -54,8 +54,13 @@ header a {
 }
 
 .food_holder div {
+  max-width: 60% ;
+  border: 1px solid grey;
   padding: 11px;
   background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
 }
 
 .food_holder h3{
@@ -65,5 +70,8 @@ header a {
 }
 
 section img {
-  width: 522px;
+  max-width: 90%;
+  max-height: auto;
+  align-self: center;
+  margin-bottom: 30px;
 }
